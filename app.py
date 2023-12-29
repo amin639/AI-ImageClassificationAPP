@@ -37,7 +37,7 @@ mainModel = ['select a Model','LogisticModel', 'SVMmodel']
 classes = ['car', 'cricket Ball', 'Ice Cream Cone']
 st.title('Welcome Amin!')
 st.title('Image Classification APP')
-uploader = st.file_uploader('Select Image', type=['jpg', 'jpeg', 'png'])
+uploader = st.file_uploader('Select Image of Car, Cricket Ball, Ice Cream Cone', type=['jpg', 'jpeg', 'png'])
 if uploader is not None:
     IMG = load_img(uploader)
     st.image(IMG)
