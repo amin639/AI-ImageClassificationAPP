@@ -5,7 +5,6 @@ from tensorflow.keras.preprocessing.image import load_img, img_to_array
 from skimage.feature import hog
 from skimage.feature import local_binary_pattern as LBP
 from skimage.feature import hog, orb, sift
-import seaborn as sns
 from sklearn.svm import SVC
 
 # List of model filenames
