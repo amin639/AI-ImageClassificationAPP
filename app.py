@@ -1,7 +1,7 @@
 import numpy as np
 import streamlit as st
 import pickle 
-from tensorflow.keras.utils import load_img, img_to_array
+from tensorflow.keras.preprocessing.image import load_img, img_to_array
 from skimage.feature import hog
 from skimage.feature import local_binary_pattern as LBP
 from skimage.feature import hog, orb, sift
