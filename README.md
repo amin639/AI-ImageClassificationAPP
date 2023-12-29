@@ -1,8 +1,8 @@
 # AI-ImageClassificationAPP
-Logistic Regression Model
--LBP Feature
--Hog Feature
+Logistic Regression Model:
+LBP Feature
+Hog Feature
 
-SVM Model
--LBP Feature
--Hog Feature
+SVM Model:
+LBP Feature
+Hog Feature
